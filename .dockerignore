@@ -1,0 +1,10 @@
+**
+!Dockerfile
+!system
+!system/**
+!dist
+dist/**
+!dist/portable-hybrid
+!dist/portable-hybrid/**
+**/__pycache__
+**/.env*

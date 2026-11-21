@@ -1,0 +1,65 @@
+{
+  "training_seconds": 1770.087377458,
+  "optimizer_steps": 143,
+  "examples_seen": 2288,
+  "complete_epochs": 0,
+  "validation": {
+    "cases": 600,
+    "loss": 0.32758330520070256,
+    "total_cost": 405,
+    "wrongful_closes": 24,
+    "accuracy": 0.8683333333333333,
+    "macro_f1": 0.8689941325859599,
+    "confusion_matrix": [
+      [
+        255,
+        28,
+        27
+      ],
+      [
+        12,
+        139,
+        0
+      ],
+      [
+        12,
+        0,
+        127
+      ]
+    ],
+    "per_class": {
+      "CLOSE": {
+        "precision": 0.9139784946236559,
+        "recall": 0.8225806451612904,
+        "f1-score": 0.865874363327674,
+        "support": 310.0
+      },
+      "RFI": {
+        "precision": 0.8323353293413174,
+        "recall": 0.9205298013245033,
+        "f1-score": 0.8742138364779874,
+        "support": 151.0
+      },
+      "ESCALATE": {
+        "precision": 0.8246753246753247,
+        "recall": 0.9136690647482014,
+        "f1-score": 0.8668941979522184,
+        "support": 139.0
+      },
+      "accuracy": 0.8683333333333333,
+      "macro avg": {
+        "precision": 0.8569963828800994,
+        "recall": 0.8855931704113318,
+        "f1-score": 0.8689941325859599,
+        "support": 600.0
+      },
+      "weighted avg": {
+        "precision": 0.8727430636562373,
+        "recall": 0.8683333333333333,
+        "f1-score": 0.8682093924251889,
+        "support": 600.0
+      }
+    }
+  },
+  "notice": "Validation agreement with provisional labels; test split was not loaded."
+}
