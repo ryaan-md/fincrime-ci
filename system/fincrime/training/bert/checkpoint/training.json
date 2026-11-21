@@ -1,0 +1,30 @@
+{
+  "model": {
+    "repo": "answerdotai/ModernBERT-base",
+    "revision": "8949b909ec900327062f0ebf497f51aef5e6f0c8",
+    "sha256": "340ac08b74eef0d7bdec2d7981a6a3d4249bf0e6aab60634b72ad02c2b8023a9"
+  },
+  "data_manifest_sha256": "1371cf04249a7f7df34012b6090247f2dd3cfc8a9c121634d50e27a0fdbf3463",
+  "train_cases": 2799,
+  "validation_cases": 600,
+  "trainable_parameters": 559364,
+  "numeric_dim": 130,
+  "physical_cases_per_batch": 2,
+  "gradient_accumulation": 8,
+  "effective_batch": 16,
+  "chunk_size": 256,
+  "chunk_overlap": 64,
+  "max_chunks": 41,
+  "mean_chunks": 11.101464808860307,
+  "quantization": "NF4 double quantization, FP16 compute",
+  "lora_rank": 8,
+  "lora_alpha": 16,
+  "lora_dropout": 0.05,
+  "adapted_layers": 8,
+  "adapter_learning_rate": 0.0001,
+  "head_learning_rate": 0.001,
+  "optimizer": "AdamW",
+  "weight_decay": 0.01,
+  "seed": 42,
+  "time_cap_seconds": 1800
+}
