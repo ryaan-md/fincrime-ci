@@ -14,9 +14,11 @@ from .refund_of_earlier_payment import check_refund_of_earlier_payment
 from .third_party_documented import check_third_party_documented
 from .within_profile import check_within_profile
 from .list_match_different_party import check_list_match_different_party
+from .returning_customer import check_returning_customer
 
 # check_missing_document never passes; keep it LAST so a real proof always gets the chance to run first.
-CHECKERS = [check_collection_documented, check_own_account, check_group_company, check_invoice_matches,
+# check_returning_customer runs before check_own_account so a TM01 alert in a dormant-reactivation case gets its code.
+CHECKERS = [check_collection_documented, check_returning_customer, check_own_account, check_group_company, check_invoice_matches,
             check_third_party_documented, check_business_records, check_refund_of_earlier_payment,
             check_documented_event, defer_to_events(check_documented_amount), check_within_profile,
             check_list_match_different_party, check_missing_document]
