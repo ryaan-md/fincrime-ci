@@ -88,7 +88,7 @@ def arbitrate(case, policy, rules, sig):
 def decide(case, policy):
     rules = run_rules(case, policy)          # 2a
     sig = edge.score(case, rules, policy)    # 2b
-    return arbitrate(case, policy, rules, sig)   # 3
+    return llm.second_look(case, policy, sig, arbitrate(case, policy, rules, sig))   # 3 (+ opt-in ML/LLM caution)
 
 
 def safe_escalate(raw, err):
