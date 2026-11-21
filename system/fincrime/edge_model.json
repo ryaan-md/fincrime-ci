@@ -1,0 +1,4285 @@
+{
+ "archetypes": {
+  "bank:TM01+TM02+TM04|sending_bank_fraud_report,support_chat": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.651574,
+     "std": 0.673418
+    },
+    "n_alert_txns": {
+     "mean": 51.138889,
+     "std": 5.099852
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.047476,
+     "std": 0.048272
+    },
+    "third_party_share": {
+     "mean": 0.812257,
+     "std": 0.002894
+    }
+   }
+  },
+  "bank:TM01+TM02+TM05|support_chat": {
+   "n": 35,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 10.541333,
+     "std": 0.432854
+    },
+    "n_alert_txns": {
+     "mean": 7.085714,
+     "std": 0.279942
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.506122,
+     "std": 0.251306
+    },
+    "third_party_share": {
+     "mean": 0.293367,
+     "std": 0.024995
+    }
+   }
+  },
+  "bank:TM01+TM02|NONE": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.839907,
+     "std": 0.655632
+    },
+    "n_alert_txns": {
+     "mean": 4.194444,
+     "std": 0.395772
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.402778,
+     "std": 0.288421
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM02|REG_3P,consulting_contract": {
+   "n": 32,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.281562,
+     "std": 0.201034
+    },
+    "n_alert_txns": {
+     "mean": 21.0,
+     "std": 0.866025
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.00142,
+     "std": 0.007909
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM02|REG_3P,support_chat": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 4.0175,
+     "std": 0.428614
+    },
+    "n_alert_txns": {
+     "mean": 7.416667,
+     "std": 1.037492
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.003086,
+     "std": 0.01826
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM02|bank_statement": {
+   "n": 20,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.077667,
+     "std": 0.02799
+    },
+    "n_alert_txns": {
+     "mean": 4.35,
+     "std": 0.47697
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.03,
+     "std": 0.130767
+    },
+    "third_party_share": {
+     "mean": 0.3025,
+     "std": 0.071545
+    }
+   }
+  },
+  "bank:TM01+TM02|dealer_invoice,loan_agreement": {
+   "n": 38,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.892982,
+     "std": 0.615593
+    },
+    "n_alert_txns": {
+     "mean": 4.157895,
+     "std": 0.364642
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.361842,
+     "std": 0.306602
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM03|management_accounts,staff_note": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 6.2725,
+     "std": 0.277042
+    },
+    "n_alert_txns": {
+     "mean": 33.694444,
+     "std": 0.460642
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.037186,
+     "std": 0.047954
+    },
+    "third_party_share": {
+     "mean": 0.257898,
+     "std": 0.010264
+    }
+   }
+  },
+  "bank:TM01+TM05|insurance_schedule,vehicle_sale_receipt": {
+   "n": 39,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.89547,
+     "std": 0.207402
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.307692,
+     "std": 0.332346
+    },
+    "third_party_share": {
+     "mean": 0.333333,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM05|support_chat": {
+   "n": 75,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.48,
+     "std": 0.4996
+    },
+    "max_measured_over_limit": {
+     "mean": 1.947556,
+     "std": 0.253551
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.284444,
+     "std": 0.329729
+    },
+    "third_party_share": {
+     "mean": 0.333333,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM06|support_chat": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.532427,
+     "std": 0.361164
+    },
+    "n_alert_txns": {
+     "mean": 8.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM06|venue_email": {
+   "n": 35,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.538133,
+     "std": 0.181305
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM07|NONE": {
+   "n": 25,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.010988,
+     "std": 0.351233
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.053333,
+     "std": 0.180862
+    },
+    "third_party_share": {
+     "mean": 0.333333,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM07|bank_statement,reverification_record": {
+   "n": 25,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.123664,
+     "std": 0.325714
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.026667,
+     "std": 0.130639
+    },
+    "third_party_share": {
+     "mean": 0.333333,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01+TM07|insurer_letter": {
+   "n": 37,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 4.001935,
+     "std": 1.053191
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01|NONE": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 7.129259,
+     "std": 2.069082
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01|bank_statement": {
+   "n": 35,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.333619,
+     "std": 0.235468
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.5,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM01|solicitor_letter": {
+   "n": 39,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 6.886667,
+     "std": 2.250627
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM02+TM04|NONE": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.912037,
+     "std": 0.246851
+    },
+    "n_alert_txns": {
+     "mean": 24.611111,
+     "std": 3.155927
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.007849,
+     "std": 0.016172
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM02+TM04|booking_confirmation": {
+   "n": 39,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.935897,
+     "std": 0.218827
+    },
+    "n_alert_txns": {
+     "mean": 24.666667,
+     "std": 2.849501
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.001902,
+     "std": 0.008186
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM02|REG_3P,consulting_contract": {
+   "n": 4,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 9.5,
+     "std": 0.866025
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM02|bank_statement": {
+   "n": 18,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 2.166667,
+     "std": 0.372678
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.111111,
+     "std": 0.31427
+    },
+    "third_party_share": {
+     "mean": 0.055556,
+     "std": 0.124226
+    }
+   }
+  },
+  "bank:TM03|cash_collection_reports,cash_handling_procedure": {
+   "n": 39,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.044872,
+     "std": 0.111398
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM03|cash_reconciliation,ticket_report": {
+   "n": 38,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.046053,
+     "std": 0.112613
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM06|hospital_invoice,support_chat": {
+   "n": 38,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.819145,
+     "std": 0.355007
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM06|venue_email": {
+   "n": 3,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.243118,
+     "std": 0.028915
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM07|NONE": {
+   "n": 10,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.488861,
+     "std": 0.144036
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.5,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM07|bank_statement,reverification_record": {
+   "n": 13,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.576471,
+     "std": 0.189787
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.5,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM07|insurer_letter": {
+   "n": 2,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.66933,
+     "std": 0.068406
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM22|NONE": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.055556,
+     "std": 0.229061
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM22|REG_3P,invoice,significant_control_register": {
+   "n": 35,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.657143,
+     "std": 0.474664
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "bank:TM22|REG_3P,receipt": {
+   "n": 38,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM01+TM02+TM03|staff_note": {
+   "n": 41,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.333333,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 24.902439,
+     "std": 0.790334
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.050451,
+     "std": 0.019561
+    }
+   }
+  },
+  "emoney:TM01+TM02+TM04|device_export,sending_bank_fraud_report,support_chat": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.16246,
+     "std": 0.749894
+    },
+    "n_alert_txns": {
+     "mean": 51.166667,
+     "std": 5.887504
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.056381,
+     "std": 0.042676
+    },
+    "third_party_share": {
+     "mean": 0.751076,
+     "std": 0.012684
+    }
+   }
+  },
+  "emoney:TM01+TM02+TM06|support_chat": {
+   "n": 3,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.641955,
+     "std": 0.467619
+    },
+    "n_alert_txns": {
+     "mean": 18.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.777778,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM01+TM02|REG_3P,support_chat": {
+   "n": 41,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.880976,
+     "std": 0.410596
+    },
+    "n_alert_txns": {
+     "mean": 10.97561,
+     "std": 1.473138
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.026608,
+     "std": 0.117496
+    },
+    "third_party_share": {
+     "mean": 0.754808,
+     "std": 0.04988
+    }
+   }
+  },
+  "emoney:TM01+TM02|device_export": {
+   "n": 33,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.347677,
+     "std": 0.177215
+    },
+    "n_alert_txns": {
+     "mean": 15.121212,
+     "std": 0.685679
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.041793,
+     "std": 0.081239
+    },
+    "third_party_share": {
+     "mean": 0.806602,
+     "std": 0.033441
+    }
+   }
+  },
+  "emoney:TM01+TM04+TM06|support_chat": {
+   "n": 3,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.903444,
+     "std": 0.186656
+    },
+    "n_alert_txns": {
+     "mean": 16.333333,
+     "std": 0.471405
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.877451,
+     "std": 0.003466
+    }
+   }
+  },
+  "emoney:TM01+TM06|support_chat": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.535896,
+     "std": 0.326645
+    },
+    "n_alert_txns": {
+     "mean": 8.972222,
+     "std": 0.164336
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.780478,
+     "std": 0.015977
+    }
+   }
+  },
+  "emoney:TM01+TM06|venue_email": {
+   "n": 19,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.569467,
+     "std": 0.157787
+    },
+    "n_alert_txns": {
+     "mean": 3.947368,
+     "std": 0.223297
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.508772,
+     "std": 0.037216
+    }
+   }
+  },
+  "emoney:TM01+TM07|NONE": {
+   "n": 31,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.184732,
+     "std": 0.338587
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.043011,
+     "std": 0.16378
+    },
+    "third_party_share": {
+     "mean": 0.333333,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM01+TM07|bank_statement,reverification_record": {
+   "n": 34,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.019752,
+     "std": 0.367367
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.058824,
+     "std": 0.189091
+    },
+    "third_party_share": {
+     "mean": 0.333333,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM01+TM07|insurer_letter": {
+   "n": 44,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.777451,
+     "std": 1.215978
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM01|NONE": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.501032,
+     "std": 0.14854
+    },
+    "n_alert_txns": {
+     "mean": 2.952381,
+     "std": 0.212959
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.007937,
+     "std": 0.050818
+    },
+    "third_party_share": {
+     "mean": 0.34127,
+     "std": 0.035493
+    }
+   }
+  },
+  "emoney:TM01|bank_statement": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.365,
+     "std": 0.223905
+    },
+    "n_alert_txns": {
+     "mean": 2.952381,
+     "std": 0.212959
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM01|settlement_letter": {
+   "n": 45,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.484519,
+     "std": 0.113475
+    },
+    "n_alert_txns": {
+     "mean": 2.977778,
+     "std": 0.147406
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.014815,
+     "std": 0.068693
+    },
+    "third_party_share": {
+     "mean": 0.337037,
+     "std": 0.024568
+    }
+   }
+  },
+  "emoney:TM02+TM04|NONE": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.769841,
+     "std": 0.218074
+    },
+    "n_alert_txns": {
+     "mean": 23.761905,
+     "std": 3.037931
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.003338,
+     "std": 0.012206
+    },
+    "third_party_share": {
+     "mean": 0.958757,
+     "std": 0.024022
+    }
+   }
+  },
+  "emoney:TM02+TM04|booking_confirmation": {
+   "n": 45,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.818519,
+     "std": 0.207341
+    },
+    "n_alert_txns": {
+     "mean": 24.466667,
+     "std": 2.793644
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.003993,
+     "std": 0.012931
+    },
+    "third_party_share": {
+     "mean": 0.95857,
+     "std": 0.025625
+    }
+   }
+  },
+  "emoney:TM02|NONE": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 3.904762,
+     "std": 0.647689
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.05119,
+     "std": 0.108098
+    },
+    "third_party_share": {
+     "mean": 0.560317,
+     "std": 0.072826
+    }
+   }
+  },
+  "emoney:TM02|bank_statement": {
+   "n": 46,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 3.065217,
+     "std": 0.869837
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.021739,
+     "std": 0.107725
+    },
+    "third_party_share": {
+     "mean": 0.058696,
+     "std": 0.133638
+    }
+   }
+  },
+  "emoney:TM02|deposit_return_letter,holding_deposit_receipt": {
+   "n": 45,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 3.911111,
+     "std": 0.589622
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.067037,
+     "std": 0.121182
+    },
+    "third_party_share": {
+     "mean": 0.55037,
+     "std": 0.070491
+    }
+   }
+  },
+  "emoney:TM02|device_export": {
+   "n": 9,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 9.222222,
+     "std": 0.916246
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.023457,
+     "std": 0.043962
+    },
+    "third_party_share": {
+     "mean": 0.918294,
+     "std": 0.044177
+    }
+   }
+  },
+  "emoney:TM03|takings_book": {
+   "n": 46,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.862319,
+     "std": 0.164127
+    },
+    "n_alert_txns": {
+     "mean": 5.586957,
+     "std": 0.492381
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.01087,
+     "std": 0.053863
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM05|advert,sale_receipt": {
+   "n": 46,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.746304,
+     "std": 0.378374
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.108696,
+     "std": 0.311257
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM06|hospital_invoice,support_chat": {
+   "n": 45,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.81296,
+     "std": 0.318908
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM06|venue_email": {
+   "n": 26,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.474828,
+     "std": 0.143774
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM07|NONE": {
+   "n": 10,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.39043,
+     "std": 0.169318
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.5,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM07|bank_statement,reverification_record": {
+   "n": 12,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.537511,
+     "std": 0.220514
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.5,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM07|insurer_letter": {
+   "n": 2,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.789883,
+     "std": 0.017099
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM22|NONE": {
+   "n": 41,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.073171,
+     "std": 0.260417
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM22|REG_3P,invoice,significant_control_register": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.571429,
+     "std": 0.494872
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "emoney:TM22|REG_3P,receipt": {
+   "n": 45,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM02+TM08|REG_3P,support_chat": {
+   "n": 50,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 58.189529,
+     "std": 12.200501
+    },
+    "n_alert_txns": {
+     "mean": 8.28,
+     "std": 1.114271
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.012889,
+     "std": 0.040268
+    },
+    "third_party_share": {
+     "mean": 0.83154,
+     "std": 0.052151
+    }
+   }
+  },
+  "investment:TM01+TM02+TM08|support_chat": {
+   "n": 48,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 24.083619,
+     "std": 2.980689
+    },
+    "n_alert_txns": {
+     "mean": 9.625,
+     "std": 0.484123
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.008333,
+     "std": 0.039965
+    },
+    "third_party_share": {
+     "mean": 0.833333,
+     "std": 0.043033
+    }
+   }
+  },
+  "investment:TM01+TM02|NONE": {
+   "n": 34,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.455784,
+     "std": 0.107631
+    },
+    "n_alert_txns": {
+     "mean": 4.382353,
+     "std": 0.485962
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM02|bank_statement,customer_email": {
+   "n": 15,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.260667,
+     "std": 0.170981
+    },
+    "n_alert_txns": {
+     "mean": 4.666667,
+     "std": 0.471405
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.026667,
+     "std": 0.099778
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM02|cancellation_confirmation": {
+   "n": 44,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.428182,
+     "std": 0.119562
+    },
+    "n_alert_txns": {
+     "mean": 4.5,
+     "std": 0.5
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.005682,
+     "std": 0.037258
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM06+TM08|support_chat": {
+   "n": 50,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 30.404674,
+     "std": 4.820015
+    },
+    "n_alert_txns": {
+     "mean": 7.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.857143,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM06|bank_statement,employment_contract": {
+   "n": 37,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 4.150218,
+     "std": 0.814836
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM07+TM08|insurer_letter": {
+   "n": 21,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 23.760762,
+     "std": 5.761271
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM07|NONE": {
+   "n": 29,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 4.833514,
+     "std": 0.999947
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.241379,
+     "std": 0.42792
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM07|bank_statement,reverification_record": {
+   "n": 38,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 4.385984,
+     "std": 0.792638
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.157895,
+     "std": 0.364642
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM08+TM10|support_chat": {
+   "n": 15,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 16.098555,
+     "std": 1.919069
+    },
+    "n_alert_txns": {
+     "mean": 7.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.857143,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM08+TM22|NONE": {
+   "n": 26,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 22.38275,
+     "std": 5.025018
+    },
+    "n_alert_txns": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.75,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM08+TM22|gift_letter": {
+   "n": 71,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 22.349164,
+     "std": 4.295788
+    },
+    "n_alert_txns": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.010563,
+     "std": 0.050292
+    },
+    "third_party_share": {
+     "mean": 0.75,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM08|NONE": {
+   "n": 55,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 127.094896,
+     "std": 83.029016
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.012121,
+     "std": 0.062398
+    },
+    "third_party_share": {
+     "mean": 0.666667,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM08|bank_statement": {
+   "n": 20,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 19.801769,
+     "std": 2.839656
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.666667,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM08|completion_statement": {
+   "n": 46,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 190.890458,
+     "std": 40.122629
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.666667,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01+TM08|gift_letter": {
+   "n": 35,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 29.060277,
+     "std": 8.082324
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.666667,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM01|bank_statement": {
+   "n": 35,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.448762,
+     "std": 0.244971
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.014286,
+     "std": 0.083299
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM02+TM08|support_chat": {
+   "n": 2,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 16.83836,
+     "std": 1.76997
+    },
+    "n_alert_txns": {
+     "mean": 6.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.833333,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM02|NONE": {
+   "n": 1,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM02|bank_statement,customer_email": {
+   "n": 30,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 2.466667,
+     "std": 0.498888
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM02|cancellation_confirmation": {
+   "n": 1,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM06|bank_statement,customer_letter": {
+   "n": 46,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.715601,
+     "std": 0.67181
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM06|bank_statement,employment_contract": {
+   "n": 8,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.041153,
+     "std": 0.530091
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM07+TM08|insurer_letter": {
+   "n": 25,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 11.49505,
+     "std": 2.766282
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM07|NONE": {
+   "n": 7,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.557333,
+     "std": 0.274665
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM07|bank_statement,reverification_record": {
+   "n": 8,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 3.510223,
+     "std": 0.403364
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM08+TM10|support_chat": {
+   "n": 35,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 13.265112,
+     "std": 2.381025
+    },
+    "n_alert_txns": {
+     "mean": 5.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM08+TM22|NONE": {
+   "n": 10,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 12.78644,
+     "std": 2.095638
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM08+TM22|gift_letter": {
+   "n": 24,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 14.17887,
+     "std": 3.070888
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM08|NONE": {
+   "n": 17,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 12.760282,
+     "std": 3.205012
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM08|bank_statement": {
+   "n": 25,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 12.11955,
+     "std": 3.33382
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM08|gift_letter": {
+   "n": 10,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 14.040467,
+     "std": 1.491991
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM10|NONE": {
+   "n": 36,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "investment:TM10|customer_email,redundancy_letter": {
+   "n": 46,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM01+TM08|factoring_agreement,remittance_advice": {
+   "n": 1,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 76.19869,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 7.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.285714,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM01|NONE": {
+   "n": 31,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.022419,
+     "std": 0.147909
+    },
+    "n_alert_txns": {
+     "mean": 5.290323,
+     "std": 0.453911
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.005376,
+     "std": 0.029447
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM01|bank_statement": {
+   "n": 210,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.03019,
+     "std": 0.742488
+    },
+    "n_alert_txns": {
+     "mean": 5.247619,
+     "std": 0.431629
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM01|purchase_order,supplier_invoice": {
+   "n": 33,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.077273,
+     "std": 0.165067
+    },
+    "n_alert_txns": {
+     "mean": 5.30303,
+     "std": 0.459568
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.005051,
+     "std": 0.02857
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM01|supplier_invoices": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 2.076905,
+     "std": 0.138099
+    },
+    "n_alert_txns": {
+     "mean": 5.285714,
+     "std": 0.451754
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.013492,
+     "std": 0.048827
+    },
+    "third_party_share": {
+     "mean": 0.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM02+TM04+TM08|payment_file": {
+   "n": 11,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 18.576279,
+     "std": 0.953321
+    },
+    "n_alert_txns": {
+     "mean": 56.454545,
+     "std": 1.157084
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM02+TM06+TM08|credit_note": {
+   "n": 14,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 7.550918,
+     "std": 0.917678
+    },
+    "n_alert_txns": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM02+TM08|NONE": {
+   "n": 41,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 34.818942,
+     "std": 13.066006
+    },
+    "n_alert_txns": {
+     "mean": 6.487805,
+     "std": 1.914285
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM02+TM08|REG_3P,consulting_contract": {
+   "n": 41,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 32.983919,
+     "std": 3.144346
+    },
+    "n_alert_txns": {
+     "mean": 8.634146,
+     "std": 0.68986
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM02+TM08|carrier_invoice,freight_invoices": {
+   "n": 22,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 31.558362,
+     "std": 4.418052
+    },
+    "n_alert_txns": {
+     "mean": 7.818182,
+     "std": 0.715819
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM02+TM08|email,group_structure,supplier_invoice": {
+   "n": 22,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 45.973211,
+     "std": 8.714985
+    },
+    "n_alert_txns": {
+     "mean": 3.636364,
+     "std": 0.710023
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM02+TM08|factoring_agreement,remittance_advice": {
+   "n": 3,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 80.55449,
+     "std": 5.371407
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM02+TM08|group_structure": {
+   "n": 3,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 62.930313,
+     "std": 5.936614
+    },
+    "n_alert_txns": {
+     "mean": 3.333333,
+     "std": 0.471405
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM03|NONE": {
+   "n": 31,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM03|contract_schedule": {
+   "n": 34,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM03|invoice,staff_note": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM04+TM08|payment_file": {
+   "n": 30,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 18.615533,
+     "std": 1.154064
+    },
+    "n_alert_txns": {
+     "mean": 36.866667,
+     "std": 1.024153
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM04|NONE": {
+   "n": 31,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.303226,
+     "std": 0.083023
+    },
+    "n_alert_txns": {
+     "mean": 36.419355,
+     "std": 2.574994
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM04|payment_file": {
+   "n": 22,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 1.292727,
+     "std": 0.088121
+    },
+    "n_alert_txns": {
+     "mean": 35.818182,
+     "std": 2.328409
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM06+TM08|credit_note": {
+   "n": 31,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 7.295324,
+     "std": 0.912162
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM06|staff_note,supplier_invoices": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 11.10989,
+     "std": 1.386922
+    },
+    "n_alert_txns": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM06|supplier_invoice,supply_contract": {
+   "n": 34,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 5.23685,
+     "std": 1.43915
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM07+TM08|insurer_letter": {
+   "n": 22,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 26.95634,
+     "std": 8.918612
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM07|NONE": {
+   "n": 31,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 13.840879,
+     "std": 3.919187
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.5,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM07|reverification_record,supplier_invoice": {
+   "n": 22,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 13.976642,
+     "std": 3.260733
+    },
+    "n_alert_txns": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 0.5,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM08|NONE": {
+   "n": 21,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 58.471847,
+     "std": 16.378634
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM08|factoring_agreement,remittance_advice": {
+   "n": 18,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 63.649008,
+     "std": 16.307344
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM08|group_structure": {
+   "n": 19,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 60.522509,
+     "std": 15.17732
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM22|NONE": {
+   "n": 32,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM22|REG_3P,invoice,significant_control_register": {
+   "n": 42,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 4.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.595238,
+     "std": 0.490846
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  },
+  "payments_fx:TM22|REG_3P,receipt": {
+   "n": 22,
+   "stats": {
+    "decisive_docs_without_amount": {
+     "mean": 2.0,
+     "std": 0.0
+    },
+    "max_measured_over_limit": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "n_alert_txns": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_alerts": {
+     "mean": 1.0,
+     "std": 0.0
+    },
+    "n_decisive_docs": {
+     "mean": 3.0,
+     "std": 0.0
+    },
+    "round_amount_share": {
+     "mean": 0.0,
+     "std": 0.0
+    },
+    "third_party_share": {
+     "mean": 1.0,
+     "std": 0.0
+    }
+   }
+  }
+ },
+ "kind": "zscore+archetype",
+ "params": {
+  "min_n": 5,
+  "std_floor_abs": 0.5,
+  "std_floor_rel": 0.1,
+  "z_cap": 6.0,
+  "z_feature": 3.0
+ },
+ "stats": {
+  "decisive_docs_without_amount": {
+   "mean": 0.7735,
+   "std": 0.818961
+  },
+  "foreign_high_risk_share": {
+   "mean": 0.0,
+   "std": 0.0
+  },
+  "max_measured_over_limit": {
+   "mean": 11.301869,
+   "std": 29.177635
+  },
+  "n_alert_txns": {
+   "mean": 6.90225,
+   "std": 10.157051
+  },
+  "n_alerts": {
+   "mean": 1.61675,
+   "std": 0.685105
+  },
+  "n_decisive_docs": {
+   "mean": 1.55175,
+   "std": 1.027289
+  },
+  "round_amount_share": {
+   "mean": 0.05171,
+   "std": 0.191883
+  },
+  "share_alerts_proven": {
+   "mean": 0.21375,
+   "std": 0.389415
+  },
+  "third_party_share": {
+   "mean": 0.625187,
+   "std": 0.410397
+  }
+ },
+ "struct_levels": {
+  "exact": 0.0,
+  "new_doc_set": 1.0,
+  "new_rule_combo": 0.75,
+  "other_institution": 0.5,
+  "rare": 0.6,
+  "rule_subset": 0.25
+ },
+ "version": 1,
+ "z_cap": 6.0,
+ "z_feature": 3.0
+}
