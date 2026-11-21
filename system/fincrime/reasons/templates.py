@@ -770,10 +770,25 @@ def t_esc_corridor(case, f, code, lead):
     return parts
 
 
+_ACCOUNT_USE = re.compile(r"open (?:an|a|their own|their) account", re.I)
+
+
+def _said_about_account(d):
+    """The customer's own sentence in a chat about others using the account, quotes removed, or None."""
+    said = str(d.fields.get("customer_explanation") or "").replace('"', "'")
+    sents = [x.strip() for x in re.split(r"(?<=[.!?])\s+", said) if x.strip()]
+    hit = next((x for x in sents if _ACCOUNT_USE.search(x)), None)
+    return hit.rstrip(".!") if hit and len(hit) <= 200 else None
+
+
 def t_esc_misuse(case, f, code, lead):
     docs = _docs(case, f, code, {"device_export"}) or _docs(case, f, code)
     parts = [_finding(case, lead)]
-    if docs:
+    quote = _said_about_account(docs[0]) if docs and docs[0].type == "support_chat" else None
+    if quote:   # third-party flag variant: others use the account because they cannot open their own
+        parts.append(f'{_docs_phrase(docs[:1])} records {_who(case)} saying "{quote}", so the account is used by '
+                     "someone else who has no account of their own")
+    elif docs:
         s = f"{_docs_phrase(docs)} {_v(docs[:2], 'show', 'shows')} how the account was accessed"
         if f.get("detail"):
             s += f": {f['detail']}"

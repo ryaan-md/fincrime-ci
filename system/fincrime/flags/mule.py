@@ -182,8 +182,14 @@ def _customer_lines(doc):
     return " ".join(said).lower().replace("’", "'")
 
 
+# Others use the customer's account because they cannot open their own: the account is operated for someone else
+# (POLICY.md ESC_ACCOUNT_MISUSE "someone other than the customer appears to control or use the account").
+ACCOUNT_USE_RE = re.compile(r"(?:can ?not|can't|unable to|not able to) open (?:an|a|their own|their) account")
+
+
 def scan_third_party_funding(case, policy):
-    """The customer says they invest or pass on other people's money, and third-party money moved in the window."""
+    """The customer says they invest or pass on other people's money, and third-party money moved in the window.
+    When they add that those people cannot open an account of their own, it is ESC_ACCOUNT_MISUSE instead."""
     third = [t for t in _window_txns(case) if t.get("channel") not in NOT_PAID_OUT + ("fund_redemption", "direct_debit",
              "standing_order") and t.get("counterparty_name") and not _is_customer(case, t["counterparty_name"])]
     if not third:
@@ -198,6 +204,10 @@ def scan_third_party_funding(case, policy):
         txs = tm08 or third
         facts = {"doc_id": d.doc_id, "doc_title": d.title, "said": m.group(0), "transaction_id": txs[0]["transaction_id"],
                  "counterparty": txs[0].get("counterparty_name"), "variant": "customer_moves_others_money"}
+        if ACCOUNT_USE_RE.search(said) or "cannot_open_account" in (d.fields.get("chat_cues") or []):
+            facts["variant"] = "others_use_the_account"
+            return [Flag("ESC_ACCOUNT_MISUSE", [d.doc_id] + [t["transaction_id"] for t in txs], facts,
+                         "third_party_funding", 3)]
         return [Flag("ESC_THIRD_PARTY_FUNDING", [d.doc_id] + [t["transaction_id"] for t in txs], facts,
                      "third_party_funding", 3)]
     return []
